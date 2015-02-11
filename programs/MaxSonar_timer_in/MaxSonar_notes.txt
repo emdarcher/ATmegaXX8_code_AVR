@@ -1,0 +1,16 @@
+//notes on pinout of my breakout for the sensor using an ethernet cable
+
+
+/*
+
+Ethernet cable pairs and corresponding connections
+
+color	| colored_wire	| white_pair_wire
+brown	|	GND	|	Vcc (3-5V)
+green	|	TX	|	RX
+blue	|	AN	|	NC
+orange	|	PW	|	BW
+
+ICPI - the timer input pin is PB0, or pin 8 on the arduino board
+
+*/
